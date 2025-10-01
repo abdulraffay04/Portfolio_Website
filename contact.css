@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 1250px;
+    position: absolute;
+}
+
+.heading p {
+    position: absolute;
+    font-size: large;
+    color: white;
+    margin-top: 60px;
+    margin-left: 630px;
+
+}
+
+.heading h1 {
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 580px;
+
+
+}
+
+.line {
+    position: absolute;
+    background-color: green;
+    height: 5px;
+    width: 110px;
+    border-radius: 10px;
+    border: green;
+    margin-top: 180px;
+    margin-left: 690px;
+}
+
+.heading a {
+    color: rgb(255, 235, 199);
+    position: absolute;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 1400px;
+
+}
+
+.heading a:hover {
+    color: white;
+
+}
+
+.info{
+    width: 665px;
+    height: 430px;
+    margin-top: 300px;
+    margin-left: 120px;
+}
+
+.info h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.b1{
+    width: 600px;
+
+}
+.na{
+    position: relative;
+    margin-top: 20px;
+    height: 80px;
+    line-height: 40px;
+    
+    
+}
+.name{
+    position: absolute;
+    font-size: 15px;
+     margin-left: 10px;
+     color: white;
+    padding: 5px;
+    transition: 0.2s ease;
+    background-color: rgb(30, 30, 30);
+}
+.na input{
+    position: absolute;
+    width: 290px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 10px;
+    border: gray solid;
+    color: white;
+    background-color: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.na input:focus,
+ input:valid{
+    color:#66ff00;
+    border: 4px solid #66ff00;
+}
+
+.na input:focus + .name,
+ input:valid + .name{
+
+    color: #66ff00;
+    height: 30px;
+    line-height: 30px;
+    transform: translate(15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+
+
+
+.b2{
+    width: 600px;
+    margin-left: 350px;
+    margin-top: -80px;
+
+}
+.ea{
+    position: relative;
+    height: 80px;
+    line-height: 40px;
+    
+    
+}
+.Email{
+    position: absolute;
+    font-size: 15px;
+     margin-left: 10px;
+     color: white;
+    padding: 5px;
+    transition: 0.2s ease;
+    background-color: rgb(30, 30, 30);
+}
+.ea input{
+    position: absolute;
+    width: 290px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 10px;
+    border: gray solid;
+    color: white;
+    background-color: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.ea input:focus,
+input:valid{
+    color:#66ff00;
+    border: 4px solid #66ff00;
+}
+
+.ea input:focus + .Email,
+input:valid + .Email{
+
+    color: #66ff00;
+    height: 30px;
+    line-height: 30px;
+    transform: translate(15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+
+
+
+.b3{
+    width: 600px;
+
+}
+.su{
+    position: relative;
+    height: 80px;
+    line-height: 40px;
+    
+    
+}
+.subject{
+    position: absolute;
+    font-size: 15px;
+     margin-left: 10px;
+     color: white;
+    padding: 5px;
+    transition: 0.2s ease;
+    background-color: rgb(30, 30, 30);
+}
+.su input{
+    position: absolute;
+    width: 640px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 10px;
+    border: gray solid;
+    color: white;
+    background-color: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.su input:focus,
+ input:valid{
+    color:#66ff00;
+    border: 4px solid #66ff00;
+}
+
+.su input:focus + .subject,
+ input:valid + .subject{
+
+    color: #66ff00;
+    height: 30px;
+    line-height: 30px;
+    transform: translate(15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+
+
+.b4{
+    width: 600px;
+
+}
+.ms{
+    position: relative;
+    height: 80px;
+    line-height: 40px;
+    
+    
+}
+.msg{
+    position: absolute;
+    font-size: 15px;
+     margin-left: 10px;
+     color: white;
+    padding: 5px;
+    transition: 0.2s ease;
+    background-color: rgb(30, 30, 30);
+}
+.ms input{
+    position: absolute;
+    width: 640px;
+    height: 120px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 10px;
+    border: gray solid;
+    color: white;
+    background-color: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.ms input:focus,
+ input:valid{
+    color:#66ff00;
+    border: 4px solid #66ff00;
+}
+
+.ms input:focus + .msg,
+ input:valid + .msg{
+
+    color: #66ff00;
+    height: 30px;
+    line-height: 30px;
+    transform: translate(15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+
+.button{
+    margin-top: 90px;
+}
+.button a{
+    color: white;
+    background-color: green;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.conInfo{
+
+    width: 500px;
+    height: 430px;
+    margin-top: -440px;
+    margin-left: 840px;
+}
+.conInfo h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.conInfo p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.i1{
+    color: green;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.i2{
+    color: green;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.i3{
+    color: green;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.i4{
+    color: green;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.line1{
+    color: gray;
+    background-color: gray;
+    width: 1px;
+    height: 270px;
+    margin-top: -255px;
+    margin-left: 80px;
+    border-color: gray;
+}
+.inf{
+    width: 390px;
+    height: 270px;
+    margin-top: -270px;
+    margin-left: 90px;
+}
+.p1{
+    color: white;
+}
+.p2{
+    color: white;
+    margin-top: 35px;
+}
+.p3{
+    color: white;
+    margin-top: 30px;
+}
+.p4{
+    color: white;
+    margin-top: 30px;
+}
